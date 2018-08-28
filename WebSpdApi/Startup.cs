@@ -144,7 +144,6 @@ namespace WebSpdApi
             });
 
             app.UseAuthentication();
-            app.UseHttpsRedirection();
             app.UseMvc();
         }
     }
